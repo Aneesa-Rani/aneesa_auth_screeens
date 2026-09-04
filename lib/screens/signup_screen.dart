@@ -23,7 +23,7 @@ class _SignupScreenState extends State<SignupScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: AuthBackground(
-        // YOUR SIGNUP BACKGROUND
+        //  BACKGROUND
         imagePath: 'assets/images/mg.jpeg',
 
         child: SafeArea(
@@ -36,11 +36,7 @@ class _SignupScreenState extends State<SignupScreen> {
                 ),
                 child: Column(
                   children: [
-
-                    // =========================
                     // HEADER
-                    // =========================
-
                     SizedBox(
                       height: constraints.maxHeight * 0.24,
                       child: const Align(
@@ -52,11 +48,7 @@ class _SignupScreenState extends State<SignupScreen> {
                         ),
                       ),
                     ),
-
-                    // =========================
-                    // SIGNUP CARD
-                    // =========================
-
+                    // SIGNUP CARd
                     Container(
                       width: double.infinity,
                       padding: const EdgeInsets.fromLTRB(
