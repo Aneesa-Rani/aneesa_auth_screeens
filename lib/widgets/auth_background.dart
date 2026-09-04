@@ -16,8 +16,6 @@ class AuthBackground extends StatelessWidget {
       child: Stack(
         fit: StackFit.expand,
         children: [
-
-          // Your actual picture
           Image.asset(
             imagePath,
             fit: BoxFit.cover,
