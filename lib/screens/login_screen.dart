@@ -23,7 +23,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
     return Scaffold(
       body: AuthBackground(
-        // CHANGE THIS TO YOUR IMAGE
+      
         imagePath: 'assets/images/fg.jpeg',
 
         child: SafeArea(
@@ -39,7 +39,7 @@ class _LoginScreenState extends State<LoginScreen> {
               child: Column(
                 children: [
 
-                  // TOP
+                  
                   const Expanded(
                     flex: 4,
                     child: Align(
